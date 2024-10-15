@@ -16,7 +16,7 @@ interface Colleague  {
 interface ColleagueHistory {
     current: Colleague[],
     former: Colleague[]
-  }
+}
 
 const friend1: Friend = {
     name: "Paul Fleming",
@@ -60,7 +60,7 @@ const friend1: Friend = {
       extension: 125,
     },
   };
-  const colleagues = {
+  const colleagues: ColleagueHistory = {
     current: [colleague1, colleague2, colleague3],
     former: [],
   };
