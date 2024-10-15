@@ -14,7 +14,9 @@ const friend1: Friend = {
   
   //const friends: Friend[] = [friend1, friend2];
   //console.log(friends[1]);
-  
+
+  export const friends: Friend[] = [friend1, friend2];
+
   //   -------------------
   const colleague1: Colleague  = {
     name: "Ralph Graham",
@@ -51,9 +53,8 @@ const friend1: Friend = {
   //console.log(colleagues.current[0]);
 
 
-  export const friends = [friend1, friend2];
 
-  export const colleagues = {
+  export const colleagues: ColleagueHistory = {
     current: [colleague1, colleague2, colleague3],
     former: [],
   };

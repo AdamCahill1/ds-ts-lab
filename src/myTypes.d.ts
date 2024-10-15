@@ -11,7 +11,7 @@ export interface Colleague {
       email: string;
       extension: number
     } 
-  }
+}
 
 export interface ColleagueHistory {
   current: Colleague[],
