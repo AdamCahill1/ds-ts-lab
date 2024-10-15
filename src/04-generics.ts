@@ -9,7 +9,7 @@ console.log(findMatch<Friend>(friends, (f) => f.name.startsWith('Jane')  ))
 console.log(findMatch<Colleague>(colleagues.current, (c) => c.department === 'Finance'  ))
 
 
-function sort<T>(data: T[], compareFn: (a: T, b: T) => number): T[] {
+function sort<T>( data: T[], compareFn: (a: T, b: T) => number): T[] {
     return [...data].sort(compareFn); 
 }
 
